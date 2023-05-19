@@ -1,0 +1,102 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#split {
+    display: flex;
+    justify-content: center;
+}
+
+#bio {
+    align-self: center;
+    width: 400px;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+    height: 30px;
+    width: 40px;
+}
+
+#projects {
+    max-height: 500px;
+    flex-shrink: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.project {
+    max-height: 35px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all 400ms cubic-bezier(.4, 1.6, .4, .8);
+}
+
+.project:hover {
+    transform: scale(105%);
+    animation-duration: 100ms;
+}
+
+.project.expand {
+    height: auto;
+    max-height: 250px;
+    transition: all 400ms cubic-bezier(.4, 1.6, .4, .8);
+}
+
+.header {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.link {
+    background-color: rgba(255, 255, 255, 0.75);
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.name {
+    font-size: 30px;
+}
+
+#more {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 30px 3px;
+    border-radius: 30px;
+}
+
+.about {
+    padding: 0 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.headshot {
+    height: 300px;
+    border-radius: 30px;
+}
