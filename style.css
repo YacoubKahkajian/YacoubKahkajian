@@ -7,9 +7,41 @@ a {
     color: black;
 }
 
-#split {
+html {
+    height: 100%;
+}
+
+body {
+    animation-name: background-colors;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+@keyframes background-colors {
+    0% {background-color: #FF9C24}
+    33% {background-color: #FDEE00}
+    66% {background-color: #0BDA51}
+    100% {background-color: #D6A0F8}
+}
+
+#split {
+    height: 70%;
+    background-color: white;
+    box-shadow: 12px 12px 0 black;
+    padding: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 15px 2px 5px;
+
 }
 
 #bio {
@@ -19,16 +51,37 @@ a {
     margin-left: 10px;
 }
 
+@media only screen and (max-width: 800px) {
+    body {
+        overflow-y: auto;
+    }
+
+    #split {
+        flex-direction: column;
+        padding: 0;
+        height: 95%;
+    }
+
+    #bio {
+        margin-left: 0;
+        padding: 0 30px;
+        width: auto;
+    }
+}
+
 .socials {
     display: flex;
     justify-content: flex-start;
     column-gap: 20px;
+}
+
+.socials > a > img {
     height: 30px;
     width: 40px;
 }
 
 #projects {
-    max-height: 500px;
+    max-height: 90%;
     flex-shrink: 1;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -78,25 +131,4 @@ a {
 
 .name {
     font-size: 30px;
-}
-
-#more {
-    background-color: black;
-    color: white;
-    padding: 30px;
-    margin: 30px 3px;
-    border-radius: 30px;
-}
-
-.about {
-    padding: 0 10vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 30px;
-}
-
-.headshot {
-    height: 300px;
-    border-radius: 30px;
 }
