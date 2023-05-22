@@ -6,8 +6,9 @@ async function parse() {
         const div = temp.content.cloneNode(true);
         div.querySelector('.name').textContent = data[i].name;
         div.querySelector('.date').textContent = data[i].date;
-        div.querySelector('.describe').textContent = data[i].description;
-        div.querySelector('.link').href = data[i].link;
+        div.querySelector('.stack').textContent = data[i].stack;
+        div.querySelector('.describe').innerHTML = data[i].description;
+        div.querySelector('.link').innerHTML = `<a href="${data[i].link}">CHECK IT OUT</a>` ;
         document.getElementById('projects').appendChild(div);
     }
 }

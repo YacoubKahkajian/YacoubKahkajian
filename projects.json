@@ -9,29 +9,50 @@
   {
     "name": "mental health",
     "date": "5/2023",
-    "stack": "javascript",
-    "description": "Where is the biological collective? Ooh, treasure!  Vortex camerarius brabeuta est. One beloved anger i give you: invent each other.",
-    "link": "https://projects.dailyprincetonian.com/princeton-scorigami/"
+    "stack": "css, javascript",
+    "description": "I was asked to create a special website for The Daily Princetonian that highlighted their articles and multimedia about mental health on Princeton's campus using a papery style. I converted the header bitmap to a responsive layout for the landing page, which allows the website to be viewed on a variety of devices without compromising its design. I also reworked the article carousel to make scrolling horizontally more natural on touchscreen devices.",
+    "link": "https://projects.dailyprincetonian.com/mental-health-awareness/"
   },
   {
-    "name": "dhall menus",
+    "name": "dining hall menus",
     "date": "1/2023",
-    "stack": "creative",
-    "description": "Where is the biological collective? Ooh, treasure!  Vortex camerarius brabeuta est. One beloved anger i give you: invent each other.",
-    "link": "https://projects.dailyprincetonian.com/princeton-scorigami/"
+    "stack": "python",
+    "description": "I authored an article for The Daily Princetonian’s data section that examines trends in the dinners served by each of Princeton’s undergraduate dining halls. I automated the data-gathering process by using menu archives courtesy of The Princetonian’s <a href=\"https://campus.dailyprincetonian.com/menus\">Campus app<\/a> and a Python script that parses the stored JSON file and categorizes each of the dishes. I am currently working on a version of this article that focuses on vegetarian and vegan options.",
+    "link": "https://www.dailyprincetonian.com/article/2023/01/princeton-dining-halls-menus-entrees-data"
   },
   {
     "name": "scorigami",
     "date": "12/2022",
-    "stack": "javascript, d3.js",
-    "description": "Where is the biological collective? Ooh, treasure!  Vortex camerarius brabeuta est. One beloved anger i give you: invent each other.",
+    "stack": "javascript, d3.js, css",
+    "description": "The Daily Princetonian’s Frontend Web team was tasked to apply <a href=\"https://youtu.be/9l5C8cGMueY\">Jon Bois’ Scorigami<\/a> concept to Princeton’s football scores in a similar vein to <a href=\"https://nflscorigami.com/\">Andrew Merriman’s NFL Scorigami grid.<\/a> I was responsible for the backend of this project, parsing the spreadsheet of scores the Sports team had on hand into a format that D3.js would be compatible with. I also took it upon myself to make the grid easier to explore on mobile devices by implementing a sticky vertical axis and making the chart scroll separately from the rest of the page.",
     "link": "https://projects.dailyprincetonian.com/princeton-scorigami/"
   },
   {
     "name": "video juicer",
     "date": "11/2022",
     "stack": "java, processing",
-    "description": "Where is the biological collective? Ooh, treasure!  Vortex camerarius brabeuta est. One beloved anger i give you: invent each other.",
-    "link": "https://projects.dailyprincetonian.com/princeton-scorigami/"
+    "description": "I used Java and the Processing graphics library to develop a fun way to visualize any given video by taking the average color of each frame and displaying them in a stack. The result is a ray of colors reminiscent of Charlie Clark’s <a href=\"https://thecolorsofmotion.com/\">The Colors of Motion<\/a> prints.",
+    "link": "https://github.com/YacoubKahkajian/Juicer"
+  },
+  {
+    "name": "jammy",
+    "date": "8/2022",
+    "stack": "javascript, css",
+    "description": "A gamified brainstorming app I led the backend development of during Google’s 2022 Computer Science Summer Institute. I designed it for use in large group environments with one host computer and multiple audience members pitching ideas that are then inputted into a text box, with a final voting round that highlights the best ideas from the session.",
+    "link": "https://github.com/YacoubKahkajian/Jammy"
+  },
+  {
+    "name": "glyiff",
+    "date": "8/2022",
+    "stack": "javascript, html canvas, css",
+    "description": "A light web app I developed for adding captions to GIFs using JavaScript, HTML canvases, and the <a href=\"https://themadcreator.github.io/gifler//\">Gifler library<\/a> by Bill Dwyer. Contains options for custom colors and font families, as well as automatic line wrapping.",
+    "link": "https://yacoubkahkajian.github.io/Glyiff/"
+  },
+  {
+    "name": "letter lights",
+    "date": "2/2022",
+    "stack": "javascript, css",
+    "description": "My take on the infinitely replayable <a href=\"https://www.nytimes.com/games/wordle/index.html\">Wordle<\/a> genre. Includes a customizable world list, dark mode, a manifest with PWA support, and fun little animations.",
+    "link": "https://yacoubkahkajian.github.io/Letter-Lights/"
   }
 ]

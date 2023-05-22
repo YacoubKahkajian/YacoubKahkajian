@@ -3,8 +3,7 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: black;
+    color: gray;
 }
 
 html {
@@ -13,7 +12,7 @@ html {
 
 body {
     animation-name: background-colors;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     display: flex;
@@ -49,24 +48,6 @@ body {
     width: 400px;
     flex-shrink: 0;
     margin-left: 10px;
-}
-
-@media only screen and (max-width: 800px) {
-    body {
-        overflow-y: auto;
-    }
-
-    #split {
-        flex-direction: column;
-        padding: 0;
-        height: 95%;
-    }
-
-    #bio {
-        margin-left: 0;
-        padding: 0 30px;
-        width: auto;
-    }
 }
 
 .socials {
@@ -108,7 +89,7 @@ body {
 
 .project.expand {
     height: auto;
-    max-height: 250px;
+    max-height: 700px;
     transition: all 400ms cubic-bezier(.4, 1.6, .4, .8);
 }
 
@@ -120,15 +101,76 @@ body {
     font-weight: bold;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.describe {
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
 .link {
-    background-color: rgba(255, 255, 255, 0.75);
-    font-weight: bold;
+    width: 100%;
     margin-top: 20px;
-    padding: 7px;
-    border-radius: 20px;
+    font-weight: bold;
+    align-self: center;
     text-align: center;
+}
+
+.link > a {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 10px 50px;
+    color: black;
+    text-decoration: none;
 }
 
 .name {
     font-size: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 920px) {
+    .name {
+        padding: 5px 0;
+        font-size: 19px;
+    }
+
+    .date {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    body {
+        overflow-y: auto;
+        align-content: flex-start;
+        align-items: flex-start;
+        height: max-content;
+    }
+
+    #split {
+        flex-direction: column;
+        padding: 0;
+        height: fit-content;
+        margin: 20px;
+    }
+
+    #bio {
+        font-size: 15px;
+        margin-top: 25px;
+        margin-left: 0;
+        padding: 0 30px;
+        width: auto;
+    }
+
+    #projects {
+        overflow-y: auto;
+    }
 }
