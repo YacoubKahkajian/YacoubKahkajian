@@ -29,7 +29,7 @@
   },
   {
     "name": "video juicer",
-    "date": "11/2022",
+    "date": "12/2022",
     "stack": "java, processing",
     "description": "I used Java and the Processing graphics library to develop a fun way to visualize any given video by taking the average color of each frame and displaying them in a stack. The result is a ray of colors reminiscent of Charlie Clark’s <a href=\"https://thecolorsofmotion.com/\">The Colors of Motion<\/a> prints.",
     "link": "https://github.com/YacoubKahkajian/Juicer"
