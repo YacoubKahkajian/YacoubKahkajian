@@ -22,7 +22,7 @@
   },
   {
     "name": "scorigami",
-    "date": "12/2022",
+    "date": "1/2023",
     "stack": "javascript, d3.js, css",
     "description": "The Daily Princetonian’s Frontend Web team was tasked to apply <a href=\"https://youtu.be/9l5C8cGMueY\">Jon Bois’ Scorigami<\/a> concept to Princeton’s football scores in a similar vein to <a href=\"https://nflscorigami.com/\">Andrew Merriman’s NFL Scorigami grid.<\/a> I was responsible for the backend of this project, parsing the spreadsheet of scores the Sports team had on hand into a format that D3.js would be compatible with. I also took it upon myself to make the grid easier to explore on mobile devices by implementing a sticky vertical axis and making the chart scroll separately from the rest of the page.",
     "link": "https://projects.dailyprincetonian.com/princeton-scorigami/"
