@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: franklin-gothic-atf, 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -28,6 +28,12 @@ body {
     33% {background-color: #FDEE00}
     66% {background-color: #0BDA51}
     100% {background-color: #D6A0F8}
+}
+
+h1 {
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: -5px;
 }
 
 #split {
@@ -129,14 +135,14 @@ body {
 }
 
 .name {
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .bold {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 950px) {
     .name {
         padding: 5px 0;
         font-size: 19px;
