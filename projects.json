@@ -1,4 +1,11 @@
 [
+    {
+    "name": "who runs princeton",
+    "date": "9/2023",
+    "stack": "javascript, json, css",
+    "description": "A special issue of The Daily Princetonian exploring the various groups on campus who have a stake in Princeton's future. I encouraged the web design section to move away from hard-coding HTML elements within their projects during the development of this issue, programming a script that automatically clones template components with relevant information from a JSON file using vanilla JavaScript. This resulted in massive time savings near the project's deadline. All my team had to do to update a carousel was change a line in a JSON file without dealing with pesky or misplaced markup tags!",
+    "link": "https://projects.dailyprincetonian.com/who-runs-princeton/"
+  },
   {
     "name": "princetonian quizzes",
     "date": "6/2023",
