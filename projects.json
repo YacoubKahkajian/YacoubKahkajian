@@ -1,5 +1,12 @@
 [
     {
+    "name": "big block of cheese",
+    "date": "12/2023",
+    "stack": "javascript, css",
+    "description": "A special issue of The Daily Princetonian highlighting the diverse themes of the articles which were published that week — featuring an interactive cheese wheel! Users can drag the wheel as it smoothly responds to the position of their input, then let it go and watch it spin before the page jumps to a preview of the article it landed on.",
+    "link": "https://projects.dailyprincetonian.com/big-block-of-cheese-day/"
+  },
+    {
     "name": "who runs princeton",
     "date": "9/2023",
     "stack": "javascript, json, css",
