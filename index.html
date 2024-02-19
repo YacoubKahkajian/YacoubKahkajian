@@ -15,7 +15,7 @@
     <link rel="icon" href="assets/favicon.svg" sizes="image/svg+xml">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/jgp1xjh.css">
-    <script src="containers.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
 <div id="split">
@@ -38,19 +38,149 @@
         </div>
     </div>
     <div id="projects">
-        <template>
-            <div class="project">
+            <div class="project" style="color: white; background-color: black;" tabindex="0" role="button">
                 <div class="header">
-                    <div class="name"></div>
-                    <div class="date"></div>
+                    <div class="name">the prince android app</div>
+                    <div class="date">2/2024</div>
                 </div>
                 <div class="info">
-                    <div class="stack bold"></div>
-                    <div class="describe"></div>
-                    <div class="link"></div>
+                    <div class="stack bold">react native, typescript, expo</div>
+                    <div class="describe">Worked on adding platform-specific polish, finding the sources of crashes that didn't throw errors, addressing tester feedback, and adding new features before The Daily Princetonian's big debut on the Google Play Store!</div>
+                    <div class="link"><a href="">COMING SOON</a></div>
                 </div>
             </div>
-        </template>
+            
+            <div class="project" style="color: white; background-color: black;" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">2023 deib report</div>
+                    <div class="date">2/2024</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">html, css</div>
+                    <div class="describe">With the Graphics section of The Daily Princetonian in a bind, the Web Design and Development team took the helm of creating a new theme for their 2023 Diversity, Equity, Inclusion, and Belonging report. I focused on animating the colorful gradient background and the animation that greets the user at the top of each page in the report.</div>
+                    <div class="link"><a href="https://projects.dailyprincetonian.com/deib-report-2023/">CHECK IT OUT</a></div>
+                </div>
+            </div>
+    
+        	<div class="project" style="color: white; background-color: black;" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">big block of cheese</div>
+                    <div class="date">12/2023</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">javascript, css</div>
+                    <div class="describe">A special issue of The Daily Princetonian highlighting the diverse themes of the articles which were published that week — featuring an interactive cheese wheel! Users can drag the wheel as it smoothly responds to the position of their input, then let it go and watch it spin before the page jumps to a preview of the article it landed on.</div>
+                    <div class="link"><a href="https://projects.dailyprincetonian.com/big-block-of-cheese-day/">CHECK IT OUT</a></div>
+                </div>
+            </div>
+        
+            <div class="project" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">who runs princeton</div>
+                    <div class="date">9/2023</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">javascript, json, css</div>
+                    <div class="describe">A special issue of The Daily Princetonian exploring the various groups on campus who have a stake in Princeton's future. I encouraged the web design section to move away from hard-coding HTML elements within their projects during the development of this issue, programming a script that automatically clones template components with relevant information from a JSON file using vanilla JavaScript. This resulted in massive time savings near the project's deadline. All my team had to do to update a carousel was change a line in a JSON file without dealing with pesky or misplaced markup tags!</div>
+                    <div class="link"><a href="https://projects.dailyprincetonian.com/who-runs-princeton/">CHECK IT OUT</a></div>
+                </div>
+            </div>
+        
+            <div class="project" style="color: white; background-color: black;" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">the prince quizzes</div>
+                    <div class="date">6/2023</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">typescript, react</div>
+                    <div class="describe">A new platform for The Daily Princetonian's interactive content that enables journalists to effortlessly create news quizzes based on their articles, while readers can take them and easily share their results using a fun and intuitive interface. I served as the lead full stack developer during this project's development, responsible for the frontend application and the GUIs that interface with the backend quiz database.</div>
+                    <div class="link"><a href="https://quizzes.dailyprincetonian.com/">CHECK IT OUT</a></div>
+                </div>
+            </div>
+         
+            <div class="project" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">mental health</div>
+                    <div class="date">5/2023</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">css, javascript</div>
+                    <div class="describe">I was asked to create a special website for The Daily Princetonian that highlighted their articles and multimedia about mental health on Princeton's campus using a papery style. I converted the header bitmap to a responsive layout for the landing page, which allows the website to be viewed on a variety of devices without compromising its design. I also reworked the article carousel to make scrolling horizontally more natural on touchscreen devices.</div>
+                    <div class="link"><a href="https://projects.dailyprincetonian.com/mental-health-awareness/">CHECK IT OUT</a></div>
+                </div>
+            </div>
+        
+            <div class="project" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">dining hall menus</div>
+                    <div class="date">1/2023</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">python</div>
+                    <div class="describe">I authored an article for The Daily Princetonian’s data section that examines trends in the dinners served by each of Princeton’s undergraduate dining halls. I automated the data-gathering process by using menu archives courtesy of The Princetonian’s <a href="https://campus.dailyprincetonian.com/menus">Campus app</a> and a Python script that parses the stored JSON file and categorizes each of the dishes. I am currently working on a version of this article that focuses on vegetarian and vegan options.</div>
+                    <div class="link"><a href="https://www.dailyprincetonian.com/article/2023/01/princeton-dining-halls-menus-entrees-data">CHECK IT OUT</a></div>
+                </div>
+            </div>
+        
+            <div class="project" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">scorigami</div>
+                    <div class="date">1/2023</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">javascript, d3.js, css</div>
+                    <div class="describe">The Daily Princetonian’s Frontend Web team was tasked to apply <a href="https://youtu.be/9l5C8cGMueY">Jon Bois’ Scorigami</a> concept to Princeton’s football scores in a similar vein to <a href="https://nflscorigami.com/">Andrew Merriman’s NFL Scorigami grid.</a> I was responsible for the backend of this project, parsing the spreadsheet of scores the Sports team had on hand into a format that D3.js would be compatible with. I also took it upon myself to make the grid easier to explore on mobile devices by implementing a sticky vertical axis and making the chart scroll separately from the rest of the page.</div>
+                    <div class="link"><a href="https://projects.dailyprincetonian.com/princeton-scorigami/">CHECK IT OUT</a></div>
+                </div>
+            </div>
+        
+            <div class="project" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">video juicer</div>
+                    <div class="date">12/2022</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">java, processing</div>
+                    <div class="describe">I used Java and the Processing graphics library to develop a fun way to visualize any given video by taking the average color of each frame and displaying them in a stack. The result is a ray of colors reminiscent of Charlie Clark’s <a href="https://thecolorsofmotion.com/">The Colors of Motion</a> prints.</div>
+                    <div class="link"><a href="https://github.com/YacoubKahkajian/Juicer">CHECK IT OUT</a></div>
+                </div>
+            </div>
+        
+            <div class="project" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">jammy</div>
+                    <div class="date">8/2022</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">javascript, css</div>
+                    <div class="describe">A gamified brainstorming app I led the backend development of during Google’s 2022 Computer Science Summer Institute. I designed it for use in large group environments with one host computer and multiple audience members pitching ideas that are then inputted into a text box, with a final voting round that highlights the best ideas from the session.</div>
+                    <div class="link"><a href="https://github.com/YacoubKahkajian/Jammy">CHECK IT OUT</a></div>
+                </div>
+            </div>
+        
+            <div class="project" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">glyiff</div>
+                    <div class="date">8/2022</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">javascript, html canvas, css</div>
+                    <div class="describe">A light web app I developed for adding captions to GIFs using JavaScript, HTML canvases, and the <a href="https://themadcreator.github.io/gifler//">Gifler library</a> by Bill Dwyer. Contains options for custom colors and font families, as well as automatic line wrapping.</div>
+                    <div class="link"><a href="https://yacoubkahkajian.github.io/Glyiff/">CHECK IT OUT</a></div>
+                </div>
+            </div>
+        
+            <div class="project" tabindex="0" role="button">
+                <div class="header">
+                    <div class="name">letter lights</div>
+                    <div class="date">2/2022</div>
+                </div>
+                <div class="info">
+                    <div class="stack bold">javascript, css</div>
+                    <div class="describe">My take on the infinitely replayable <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a> genre. Includes a customizable world list, dark mode, a manifest with PWA support, and fun little animations.</div>
+                    <div class="link"><a href="https://yacoubkahkajian.github.io/Letter-Lights/">CHECK IT OUT</a></div>
+                </div>
+            </div>
     </div>
 </div>
 </body>
