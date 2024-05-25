@@ -36,6 +36,10 @@ h1 {
     margin-bottom: -5px;
 }
 
+#secret {
+    cursor: pointer;
+}
+
 #split {
     height: 70%;
     background-color: white;
@@ -75,6 +79,7 @@ h1 {
 }
 
 .project {
+    cursor: pointer;
     max-height: 35px;
     max-width: 600px;
     display: flex;
@@ -110,6 +115,7 @@ h1 {
 .info {
     display: flex;
     flex-direction: column;
+    cursor: text;
 }
 
 .describe {
@@ -178,5 +184,15 @@ h1 {
 
     #projects {
         overflow-y: auto;
+        max-width: 500px;
+    }
+    
+    .project {
+        padding: 25px 4vw;
+        margin: 20px 10px;
+    }
+    
+    .link > a {
+        padding: 10px 40px;
     }
 }

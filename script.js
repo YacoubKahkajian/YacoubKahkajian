@@ -21,4 +21,9 @@ function animate() {
     }
 }
 
+const secret = document.getElementById('secret');
+secret.addEventListener('click', function () {
+    secret.innerHTML = `<a href="mailto:yacoub@princeton.edu">yacoub@princeton.edu</a>`;
+});
+
 animate();
